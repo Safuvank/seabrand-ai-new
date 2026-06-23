@@ -53,72 +53,72 @@
 // }
 
 
-"use client";
-import { motion } from "framer-motion";
-
-export default function ServicesHeader() {
-  return (
-    <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-32">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-4xl">
-        <span className="text-[#6748FE] font-bold tracking-widest uppercase text-sm mb-6 block">Our Expertise</span>
-        <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-[0.95] mb-10">
-          We curate <br/> <span className="text-[#A899FF]">digital futures.</span>
-        </h1>
-        {/* <p className="text-2xl text-zinc-600 max-w-2xl leading-relaxed">
-          From AI-driven branding to high-impact web experiences, we build the foundations for your brand’s long-term dominance.
-        </p> */}
-      </motion.div>
-    </section>
-  );
-}
-
-
-
 // "use client";
-
 // import { motion } from "framer-motion";
 
-// interface HeaderProps {
-//   onOpenModal: () => void;
-// }
-
-// const fadeUp = {
-//   hidden: { opacity: 0, y: 30 },
-//   visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as const } },
-// };
-
-// const staggerContainer = {
-//   hidden: { opacity: 0 },
-//   visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
-// };
-
-// export default function ServicesHeader({onOpenModal}: HeaderProps) {
+// export default function ServicesHeader() {
 //   return (
-//     <motion.section
-//       initial="hidden"
-//       whileInView="visible"
-//       viewport={{ once: true }}
-//       variants={staggerContainer}
-//       className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-20 md:mb-32 pt-10"
-//     >
-//       <motion.div variants={fadeUp} className="max-w-4xl">
-//         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-50 border border-zinc-200 text-sm font-semibold text-zinc-600 mb-8 tracking-wider">
-//           Services
-//         </div>
-        
-//         <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8">
-//           AI Strategic <br className="hidden md:block" />
-//           <span className="text-[#A899FF]">Powered Branding.</span>
+//     <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-32">
+//       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-4xl">
+//         <span className="text-[#6748FE] font-bold tracking-widest uppercase text-sm mb-6 block">Our Expertise</span>
+//         <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-[0.95] mb-10">
+//           We curate <br/> <span className="text-[#A899FF]">digital futures.</span>
 //         </h1>
-        
-//         {/* Uncomment the paragraph if you want to include the description */}
-//         {/* <motion.p variants={fadeUp} className="text-xl text-zinc-500 max-w-2xl leading-relaxed">
+//         {/* <p className="text-2xl text-zinc-600 max-w-2xl leading-relaxed">
 //           From AI-driven branding to high-impact web experiences, we build the foundations for your brand’s long-term dominance.
-//         </motion.p> */}
+//         </p> */}
 //       </motion.div>
-//     </motion.section>
+//     </section>
 //   );
 // }
+
+
+
+"use client";
+
+import { motion } from "framer-motion";
+
+interface HeaderProps {
+  onOpenModal: () => void;
+}
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as const } },
+};
+
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
+};
+
+export default function ServicesHeader({onOpenModal}: HeaderProps) {
+  return (
+    <motion.section
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={staggerContainer}
+      className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-20 md:mb-32 pt-10"
+    >
+      <motion.div variants={fadeUp} className="max-w-4xl">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-50 border border-zinc-200 text-sm font-semibold text-zinc-600 mb-8 tracking-wider">
+          Services
+        </div>
+        
+        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8">
+          AI Strategic <br className="hidden md:block" />
+          <span className="text-[#A899FF]">Powered Branding.</span>
+        </h1>
+        
+        {/* Uncomment the paragraph if you want to include the description */}
+        {/* <motion.p variants={fadeUp} className="text-xl text-zinc-500 max-w-2xl leading-relaxed">
+          From AI-driven branding to high-impact web experiences, we build the foundations for your brand’s long-term dominance.
+        </motion.p> */}
+      </motion.div>
+    </motion.section>
+  );
+}
 
 
 
