@@ -5,7 +5,7 @@ import TestimonialTrack from "./TestimonialTrack";
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 md:py-32 bg-[#FAFAFA] overflow-hidden relative">
+    <section className="py-24 md:py-15 bg-[#FAFAFA] overflow-hidden relative">
       
       {/* 1. Left-Aligned Header */}
       <TestimonialsHeader />

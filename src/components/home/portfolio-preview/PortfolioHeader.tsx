@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function PortfolioHeader() {
   return (
-    <div className="container-custom mx-auto px-4 md:px-12 relative z-10 mb-12 lg:mb-32 shrink-0 flex flex-col items-center justify-center text-center w-full">
+    <div className="container-custom mx-auto px-4 md:px-12 relative z-10 mb-12 lg:mb-3 shrink-0 flex flex-col items-center justify-center text-center w-full">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

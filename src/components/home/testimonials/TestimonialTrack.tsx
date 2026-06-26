@@ -5,7 +5,7 @@ import TestimonialCard from "./TestimonialCard";
 
 // Split into two rows (if you want to add a second reverse track later, row2 is ready!)
 const row1 = testimonials.slice(0, 4);
-const row2 = testimonials.slice(4, 8);
+
 
 const marqueeCSS = `
   /* Infinite Marquee Animations */

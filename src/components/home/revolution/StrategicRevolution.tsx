@@ -36,7 +36,7 @@ import RevolutionStatsGrid from "./RevolutionStatsGrid";
 export default function StrategicRevolution() {
   return (
     <section
-      className="py-24 md:py-40 bg-[#050505] relative overflow-hidden w-full"
+      className="py-24 md:py-20 bg-[#050505] relative overflow-hidden w-full"
       id="impact"
     >
       {/* 1. Background Elements */}

@@ -21,7 +21,7 @@ export default function PortfolioSection() {
   return (
     <section
       ref={targetRef}
-      className="relative h-[200vh] bg-black mb-20 lg:mb-20"
+      className="relative h-[200vh] bg-black mb-20 lg:mb-0"
       id="works"
     >
       {/* ✅ FIXED: Changed h-screen to h-[100dvh] for mobile safety */}
