@@ -174,7 +174,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import Link from "next/link";
 import { ChevronDown, X } from "lucide-react";
 import { mobileNavLinks } from "@/src/data/navbar.data";
@@ -191,7 +191,7 @@ const backdropVariants = {
 };
 
 // Center modal scale-up
-const modalVariants = {
+const modalVariants:Variants = {
   closed: {
     opacity: 0,
     scale: 0.9,
@@ -206,7 +206,7 @@ const modalVariants = {
   },
 };
 
-const submenuVariants = {
+const submenuVariants:Variants = {
   closed: {
     height: 0,
     opacity: 0,
