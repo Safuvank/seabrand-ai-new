@@ -139,7 +139,7 @@ export default function TeamQuotes() {
   const activeQuote = team[currentQuoteIndex];
 
   return (
-    <div className="w-full bg-[#050505] text-white rounded-[3rem] py-24 md:py-32 px-6 md:px-16 overflow-hidden relative border border-white/10">
+    <div className="w-full bg-[#050505] text-white rounded-xl py-24 md:py-32 px-6 md:px-16 overflow-hidden relative border border-white/10">
       {/* Ambient Dark Glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#6748FE]/10 rounded-full blur-[120px] pointer-events-none z-0" />
       

@@ -13,7 +13,7 @@ const fadeUp = {
 
 export default function TestimonialsHeader() {
   return (
-    <div className="container-custom mx-auto px-6 md:px-12 max-w-7xl mb-16 md:mb-10">
+    <div className="container-custom mx-auto px-6 md:px-12 max-w-7xl">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 rounded-full">
         <motion.div
           initial="hidden"
