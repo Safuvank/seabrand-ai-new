@@ -17,7 +17,7 @@ export default function WorksFilter({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
-      className="flex flex-wrap items-center gap-6 md:gap-8 mb-16 border-b border-zinc-200 pb-6 "
+      className="flex flex-wrap items-center gap-6 md:gap-8 mb-8 border-b border-zinc-200 pb-6 "
     >
       {categories.map((category) => (
         <button
@@ -34,7 +34,7 @@ export default function WorksFilter({
           {activeCategory === category && (
             <motion.div
               layoutId="activeFilter"
-              className="absolute -bottom-[25px] left-0 right-0 h-[2px] bg-black"
+              className="absolute -bottom-[12px] left-0 right-0 h-[2px] bg-black"
             />
           )}
         </button>

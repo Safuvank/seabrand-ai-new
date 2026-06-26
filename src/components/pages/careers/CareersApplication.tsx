@@ -31,7 +31,7 @@ export default function CareersApplication({
   return (
     <section
       id="apply"
-      className="bg-zinc-50 text-zinc-900 py-24 md:py-32 w-full mt-20 rounded-t-[3rem] border-t border-zinc-200 shadow-[0_-10px_40px_rgba(0,0,0,0.02)]"
+      className="bg-zinc-50 text-zinc-900 py-10 md:py-32 w-full mt-20 rounded-t-xl border-t border-zinc-200 shadow-[0_-10px_40px_rgba(0,0,0,0.02)]"
     >
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 relative z-10">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">

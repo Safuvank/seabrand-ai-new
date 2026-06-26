@@ -35,7 +35,7 @@ export default function ClientsHeader() {
 
         <motion.h1
           variants={fadeUp}
-          className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8"
+          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8"
         >
           Brands we <br className="hidden md:block" />
           <span className="text-[#A899FF]">partner with.</span>

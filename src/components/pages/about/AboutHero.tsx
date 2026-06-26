@@ -19,7 +19,7 @@ const stagger = {
 
 export default function AboutHero() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 relative z-10 mb-20 md:mb-32 pt-10">
+    <section className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 relative z-10 mb-20 md:mb-32">
       <motion.div
         initial="hidden"
         animate="visible"
@@ -34,7 +34,7 @@ export default function AboutHero() {
 
           <motion.h1
             variants={fadeUp}
-            className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8"
           >
             Curating the <br className="hidden md:block" />
             <span className="text-[#A899FF]">future of brands.</span>

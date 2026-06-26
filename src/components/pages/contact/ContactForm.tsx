@@ -63,7 +63,7 @@ export default function ContactForm() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="absolute top-full w-full bg-white border border-zinc-200 rounded-2xl shadow-xl mt-2 z-50 py-2"
+              className="absolute top-full w-full bg-white border border-zinc-200 rounded-xl shadow-xl mt-2 z-50 py-2"
             >
               {servicesData.services.map((service) => (
                 <li

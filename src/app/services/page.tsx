@@ -24,7 +24,7 @@ export default function ServicesPage() {
   };
 
   return (
-    <main className="min-h-screen bg-white text-zinc-900 selection:bg-[#6748FE] selection:text-white">
+    <main className="min-h-screen bg-white text-zinc-900 pt-20 selection:bg-[#6748FE] selection:text-white">
       {/* Pass the function as a prop to components that need it */}
       <ServicesHeader onOpenModal={handleModalOpen} />
 
